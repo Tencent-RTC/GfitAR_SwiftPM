@@ -24,17 +24,17 @@ let package = Package(
 
         .binaryTarget(
             name: "TCEffectPlayer",
-            url: "https://mediacloud.cos.accelerate.myqcloud.com/MediaX/iOS/podspec/release/3.4/3.4.244/spm/TCEffectPlayer.xcframework.zip",
+            url: "https://mediacloud-76607.gzc.vod.tencent-cloud.com/MediaX/iOS/podspec/release/3.4/3.4.244/spm/TCEffectPlayer.xcframework.zip",
             checksum: "886cc416778858003303b5d77c639fcb3025001a7439d14a5b37f49fc75593c6"
         ),
         .binaryTarget(
             name: "libtcpag",
-            url: "https://mediacloud.cos.accelerate.myqcloud.com/MediaX/iOS/podspec/release/3.4/3.4.244/spm/libtcpag.xcframework.zip",
+            url: "https://mediacloud-76607.gzc.vod.tencent-cloud.com/MediaX/iOS/podspec/release/3.4/3.4.244/spm/libtcpag.xcframework.zip",
             checksum: "6e57b173e9f74326aafa10dc3d6d6d9526bd21cd653fe29cc8a1de0c6eee6225"
         ),
         .binaryTarget(
             name: "TCMediaX",
-            url: "https://mediacloud.cos.accelerate.myqcloud.com/MediaX/iOS/podspec/release/3.4/3.4.244/spm/TCMediaX.xcframework.zip",
+            url: "https://mediacloud-76607.gzc.vod.tencent-cloud.com/MediaX/iOS/podspec/release/3.4/3.4.244/spm/TCMediaX.xcframework.zip",
             checksum: "aa9239de9d20934bdccdbc7ea01b2650dd6a5937f1765187be665f2522451bf3"
         ),
 
