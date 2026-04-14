@@ -37,6 +37,11 @@ let package = Package(
             url: "https://mediacloud-76607.gzc.vod.tencent-cloud.com/MediaX/iOS/podspec/release/3.4/3.4.244/spm/TCMediaX.xcframework.zip",
             checksum: "aa9239de9d20934bdccdbc7ea01b2650dd6a5937f1765187be665f2522451bf3"
         ),
+        .binaryTarget(
+            name: "YTCommonXMagic",
+            url: "https://mediacloud-76607.gzc.vod.tencent-cloud.com/MediaX/iOS/podspec/release/3.4/3.4.244/spm/YTCommonXMagic.xcframework.zip",
+            checksum: "e0f06df47c8942d38a954f9ee12a087044d6dad17cbcbd0f32106f7e088d2bac"
+        ),
 
         // ==================== Wrapper Target ====================
 
@@ -45,7 +50,8 @@ let package = Package(
             dependencies: [
                 "TCEffectPlayer",
                 "libtcpag",
-                "TCMediaX"
+                "TCMediaX",
+                "YTCommonXMagic"
             ],
             path: "Sources/EffectPlayerWrapper",
             linkerSettings: [
